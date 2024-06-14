@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <h1 class="red">OK</h1>
+        <h1 class="blue">Q8</h1>
+      </div>
+      <nav class="menu">
+        <ul class="links">
+          <li><a href="Information om hyrbilar">Hyrbil</a></li>
+          <li>
+            <a href="Information om vad som finns på stationen">På stationen</a>
+          </li>
+          <li><a href="Information om vår bank">Bank </a></li>
+          <li><a href="Information om våra försäkringar">Försäkringar</a></li>
+          <li><a href="Information om våra produkter">Produkter</a></li>
+          <li>
+            <a href="Information om vår elbilsladdning">Elbilsladdning</a>
+          </li>
+          <li><a href="Bli medlem">Medlem </a></li>
+          <li><a href="Vår sökfunktion">SÖK </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="headerParent">
+        <h4 class="test3">OKQ8.se / Medlem / Bli medlem i OK</h4>
+        <h1 class="test3 blue2">Bli medlem i OK</h1>
+        <p class="test3">
+          Välj en gratis produkt efter vart 6:e köp, alltid 10 % på tvätt plus
+          återbäring och en massa bra erbjudanden. Fyll i formuläret nedan så
+          kommer ditt medlemskort med posten inom en vecka.
+        </p>
+      </section>
+      <form class="myForm" action="https://httpbin.org/anything" method="post">
+        <section class="names1">
+          <div class="inputName">
+            <label for="firstName">Förnamn</label>
+            <input
+              id="firstName"
+              type="text"
+              name="firstName"
+              placeholder="Förnamn"
+              required
+              aria-required="true"
+            />
+          </div>
+          <div class="inputName">
+            <label for="lastName">Efternamn</label>
+            <input
+              id="lastName"
+              type="text"
+              name="lastName"
+              placeholder="Efternamn"
+              required
+              aria-required="true"
+            />
+          </div>
+        </section>
+        <section class="ovrigInfo1">
+          <div class="ovrigchild">
+            <label for="email">E-postadress</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="namn@mail.com"
+              required
+              aria-required="true"
+            />
+          </div>
+          <div class="ovrigchild">
+            <label for="password">Lösenord</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Lösenord"
+              required
+              aria-required="true"
+            />
+          </div>
+        </section>
+        <section class="test2">
+          <p>
+            Information om hur vi hanterar dina personuppgifter hittar du här.
+          </p>
+          <div class="radioParent">
+            <input
+              id="radio"
+              type="radio"
+              name="radio"
+              required
+              aria-required="true"
+            />
+            <label for="radio"
+              >Jag har tagit del av och godkänner villkoren för
+              medlemskapet.</label
+            >
+          </div>
+          <button type="submit" class="btn">Skicka ></button>
+        </section>
+      </form>
+    </main>
+    <footer class="footerParent">
+      <p class="footerChild">&copy; 2024 OK-Q8 AB.</p>
+    </footer>
+  </body>
+</html>
